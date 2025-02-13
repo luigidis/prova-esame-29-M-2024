@@ -127,7 +127,7 @@ int pop(Node **P)
     *P = to_delete->next;
     int n = to_delete->val;
     free(to_delete);
-
+    
     return n;
 }
 
